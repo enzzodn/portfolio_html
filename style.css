@@ -1,3 +1,5 @@
+/* ---------------------- INDEX.HTML ---------------------- */
+
 body {
     background-color: #10002B;
     color: #ffffff;
@@ -32,9 +34,9 @@ body {
     align-items: center;
 }
 
-ul {
+#navbar ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     align-items: center;
     padding: 16px;
@@ -77,3 +79,74 @@ footer a {
     margin: 50px;
     text-align: center;
 }
+
+/* ------------------------------------------------------ */
+
+/* ------------------- PROJETOS.HTML ---------------------- */
+
+#cartoes a:hover{
+    color: #8EB1C7;
+    text-decoration: none;
+}
+
+#cartoes a {
+    color: #EAE0D5;
+}
+
+/* ------------------------------------------------------ */
+
+
+/* ------------------- CONTATO.HTML ---------------------- */
+
+.cartao_contato {
+    background-color: #7B904B;
+    border-radius: 20px;
+    width: 800px;
+    height: 550px;
+    padding: 30px;
+    margin: 20px;
+}
+
+#nome {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #cccccc;
+    border: 1px solid #000000;
+    width: 300px;
+    height: 30px
+}
+
+textarea {
+    border: 1px solid #000000;
+    background: #cccccc;
+    width: 500px;
+    height: 150px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+#nome:hover, textarea:hover {
+    background: #ffffff;
+    border: 1px solid #0c2924;
+}
+
+input[type=submit] {
+    background: #14453D;
+    color: #8EB1C7;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background: #0c2924;
+    color: #7390a1;
+}
+
+/* ------------------------------------------------------ */
